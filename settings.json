@@ -1,0 +1,33 @@
+{
+    // VSCode
+    "editor.inlineSuggest.enabled": true,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [80, 100, 120],
+    "explorer.confirmDragAndDrop": false,
+    "explorer.sortOrder": "type",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "scm.defaultViewMode": "tree",
+    "window.restoreWindows": "none",
+    "window.titleBarStyle": "custom",
+    "workbench.panel.defaultLocation": "right",
+    "workbench.startupEditor": "none",
+
+    // GitLens
+    "gitlens.codeLens.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.enabled": false,
+    "gitlens.statusBar.enabled": false,
+
+    // python
+    // empty
+
+    // R
+    "r.alwaysUseActiveTerminal": true,
+    "r.bracketedPaste": true,
+    "r.lsp.diagnostics": false,
+    "r.plot.useHttpgd": true,
+}
