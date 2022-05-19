@@ -1,0 +1,21 @@
+[
+    // R
+    // https://github.com/REditorSupport/vscode-R/wiki/Keyboard-shortcuts
+    // https://github.com/Ikuyadeu/vscode-R/issues/388
+    {
+        "key": "ctrl+shift+m",
+        "command": "type",
+        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
+        "args": { "text": " |> " }
+    },
+    {
+        "key": "Ctrl+Shift+m",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": { "text": " |> " },
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "-workbench.actions.view.problems"
+    }
+]
